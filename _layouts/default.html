@@ -4,10 +4,23 @@
 	{% include head.html %}
 </head>
 <body>
-	{% include header.html %}
-
-	{{ content }}
-
-	{% include footer.html %}
+	<div class="container">
+		{% include header.html %}
+		<div class="row">
+			<div class="col-md-2">
+				<ul class="nav nav-pills nav-stacked">
+					{% for page in site.pages %}
+						{% if page.page-category == "content" %}
+							<li role="presentation"><a href="{{ page.url }}">{{ page.title }}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="col-md-10">
+				{{ content }}
+			</div>
+		</div>
+		{% include footer.html %}
+	</div>
 </body>
 </html>
