@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to Planning Factory
+title: SQL Helper
 page-category: content
 ---
 
