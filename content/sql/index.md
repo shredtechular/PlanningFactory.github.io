@@ -11,5 +11,5 @@ SQL Snippets to make building DataFactory Solutions easy and efficent. All thing
 [What is not possible in SQL](What-is-not-possible-in-SQL)  
 [Install and manage SQL Server ](Install-and-manage-SQL-Server)
 
-## Special Snippets for DataFactory
+## Special Snippets for DataFactory now
 [Query Snippets](QuerySnippets.md)
