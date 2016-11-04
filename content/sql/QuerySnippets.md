@@ -1,3 +1,7 @@
+---
+layout: default
+title: Snippets of nice SQL code
+---
 
 ####Basic Join of DataFactory Tables
 Delete the joins you dont need to increase speed and keep statement simple
