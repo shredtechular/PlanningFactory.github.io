@@ -4,11 +4,16 @@ Delete the joins you dont need to increase speed and keep statement simple
 
     SELECT 
        fV.FactoryID
+      ,dF.NameShort AS FactoryName
       ,fV.ProductLineID
+      ,dPL.NameShort AS ProductLineName
       ,fV.ProductID
+      ,dP.NameShort AS ProductName
       ,fV.ValueSeriesID
+      ,dVS.NameShort AS ValueSeriesName
+      ,TimeID
       ,CAST(fV.ValueInt AS money)/dVS.Scale AS Value
-      ,fV.ValueInt
+      ,fV.ValueText
 
     FROM 
       -- Basic fact table (ValueInt, ValueText, ValueComment)
