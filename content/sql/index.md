@@ -12,4 +12,4 @@ SQL Snippets to make building DataFactory Solutions easy and efficent. All thing
 [Install and manage SQL Server ](Install-and-manage-SQL-Server)
 
 ## Special Snippets for DataFactory now
-[Query Snippets](QuerySnippets)
+[Basic Join of fact and dimension tables](df_basic_join)
